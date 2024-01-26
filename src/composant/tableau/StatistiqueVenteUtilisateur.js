@@ -30,7 +30,7 @@ const StatistiqueVenteUtilisateur = ({date}) => {
                 ],
                 borderColor: "black",
                 borderWidth: 2,
-            },1
+            },
             ],
         })
         } else {

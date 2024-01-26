@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import BarChart from "../chart/BarChart";
 
-const UserDataComponent = ({date}) => {
+const StatistiqueRevenue = ({date}) => {
   const [userData, setUserData] = useState([]);
 
   const [chartData, setChartData] = useState(null);
@@ -88,4 +88,4 @@ const UserDataComponent = ({date}) => {
   );
 };
 
-export default UserDataComponent;
+export default StatistiqueRevenue;
